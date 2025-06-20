@@ -1,4 +1,3 @@
-
 # 🔐 Vite + React Auth System
 
 A simple authentication system built with **Vite + React**, using:
@@ -64,6 +63,7 @@ npm run dev
 ## 🧠 Features
 
 ### 🛠 Auth System
+
 - Signup with email + password
 - Login with stored credentials
 - Protected dashboard (requires auth)
@@ -71,21 +71,22 @@ npm run dev
 - Toast notifications on success/error
 
 ### 🧾 Validation
+
 - Email must be valid
 - Password must be at least 6 characters
 
 ### 🛡 Route Protection
+
 - Users cannot access `/dashboard` if not logged in
 - Redirects to `/login` if unauthenticated
 
 ### 💾 State Management & Persistence
+
 - Redux Toolkit manages auth state
 - LocalStorage stores:
   - all registered users under key `users`:
     ```json
-    [
-      { "email": "test@example.com", "password": "123456" }
-    ]
+    [{ "email": "test@example.com", "password": "123456" }]
     ```
   - currently logged-in user under key `authUser`
 
@@ -93,12 +94,12 @@ npm run dev
 
 ## 🔑 Default Pages
 
-| Route         | Description                      |
-|---------------|----------------------------------|
-| `/`           | Home page with login/signup CTA  |
-| `/login`      | Login form                       |
-| `/signup`     | Signup form                      |
-| `/dashboard`  | Protected user page              |
+| Route        | Description                     |
+| ------------ | ------------------------------- |
+| `/`          | Home page with login/signup CTA |
+| `/login`     | Login form                      |
+| `/signup`    | Signup form                     |
+| `/dashboard` | Protected user page             |
 
 ---
 
@@ -118,6 +119,7 @@ npm run dev
 ## 📸 Screenshots
 
 > You can add some screenshots of:
+>
 > - Signup page
 > - Login page
 > - Dashboard (after login)
@@ -150,5 +152,4 @@ MIT License — free for personal and commercial use.
 
 ## 🙌 Author
 
-Made by [Keval Satani](https://github.com/keval1707/) — feel free to contribute or fork!
-
+Made by [Keval Satani](https://github.com/Keval1707/Auth-System-Task) — feel free to contribute or fork!
