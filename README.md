@@ -42,8 +42,8 @@ src/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/vite-auth-app.git
-cd vite-auth-app
+git clone https://github.com/Keval1707/Auth-System-Task.git
+cd Auth-System-Task
 ```
 
 ### 2. Install dependencies
